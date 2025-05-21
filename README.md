@@ -1,4 +1,4 @@
-# California House Pricing Machine Learning
+# Machine Learning for California Housing Price Prediction
 
 Project ini merupakan project pengembangan Model Machine Learning untuk Memprediksi Harga Properti di Wilayah California, Amerika dengan menggunakan dataset data_california_house.csv
 
