@@ -4,7 +4,7 @@ Project ini merupakan project pengembangan Model Machine Learning untuk Mempredi
 
 ## Business Proble Understanding
 
-Perusahaan properti berbasis di California yang bergerak dalam layanan jual, beli, dan sewa properti residensial maupun komersial.  Say White berkomitmen untuk membantu klien mendapatkan properti terbaik dengan harga transparan, sesuai nilai pasar, dan menguntungkan kedua belah pihak.
+Say White merupakan sebuah perusahaan properti berbasis di California yang bergerak dalam layanan jual, beli, dan sewa properti residensial maupun komersial.  Say White berkomitmen untuk membantu klien mendapatkan properti terbaik dengan harga transparan, sesuai nilai pasar, dan menguntungkan kedua belah pihak.
 
 ### Problem Statement
 California merupakan wilayah dengan pasar properti yang dinamis dan kompleks, dimana harga rumah di wilayah ini dipengaruhi oleh berbagai faktor.  
@@ -33,7 +33,7 @@ Pihak-pihak yang berperan dan akan terdampak dalam implementasi project ini:
 ![gambar](https://github.com/user-attachments/assets/8c8d5c35-3f2e-4f3f-badf-fc9e5dbe2e41)
 
 ### Distribusi Kolom Target
-- Kolom median_house_value memiliki distribusi right-skewed.
+Kolom median_house_value memiliki distribusi right-skewed.
 ![gambar](https://github.com/user-attachments/assets/09a7970a-37bc-47d7-93d5-4ac5ce7dd126)
 
 ### Distribusi Kolom Numerik
