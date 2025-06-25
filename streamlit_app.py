@@ -6,17 +6,9 @@ from joblib import load
 
 from xgboost import XGBRegressor
 
-# Load model dari file joblib
-try:
-    print("Mencoba memuat model...")
-    model = load('XGBoostModel_CaliforniaHouse.joblib') 
-    print("Model berhasil dimuat.")
-except FileNotFoundError:
-    st.error("File model tidak ditemukan. Pastikan nama dan lokasi file benar.")
-    st.stop()  
-except Exception as e:
-    st.error(f"Terjadi kesalahan saat memuat model: {e}")
-    st.stop() 
+# Load model dari file pickle
+with open('XGBoostModel_CaliforniaHouse.sav', 'rb') as file:
+model = pickle.load(file)
 
 # Custom CSS style
 st.markdown("""
