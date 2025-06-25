@@ -7,7 +7,16 @@ from joblib import load
 from xgboost import XGBRegressor
 
 # Load model dari file joblib
-model = load('XGBoostModel_CaliforniaHouse.joblib') 
+try:
+    print("Mencoba memuat model...")
+    model = load('XGBoostModel_CaliforniaHouse.joblib') 
+    print("Model berhasil dimuat.")
+except FileNotFoundError:
+    st.error("File model tidak ditemukan. Pastikan nama dan lokasi file benar.")
+    st.stop()  
+except Exception as e:
+    st.error(f"Terjadi kesalahan saat memuat model: {e}")
+    st.stop() 
 
 # Custom CSS style
 st.markdown("""
