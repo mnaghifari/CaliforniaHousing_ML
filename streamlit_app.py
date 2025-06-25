@@ -7,7 +7,7 @@ from joblib import load
 from xgboost import XGBRegressor
 
 # Load model dari file pickle
-with open('XGBoostModel_CaliforniaHouse.joblib', 'rb') as file:
+with open('XGBoostModel_CaliforniaHouse.joblib') as file:
     model = pickle.load(file)
 
 # Custom CSS style
