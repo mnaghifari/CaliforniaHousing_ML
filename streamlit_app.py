@@ -2,11 +2,12 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
+from joblib import load
 
 from xgboost import XGBRegressor
 
 # Load model dari file pickle
-with open('XGBoostModel_CaliforniaHouse.sav', 'rb') as file:
+with open('XGBoostModel_CaliforniaHouse.joblib', 'rb') as file:
     model = pickle.load(file)
 
 # Custom CSS style
