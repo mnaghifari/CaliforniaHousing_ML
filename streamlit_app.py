@@ -8,7 +8,7 @@ from xgboost import XGBRegressor
 
 # Load model dari file pickle
 with open('XGBoostModel_CaliforniaHouse.sav', 'rb') as file:
-model = pickle.load(file)
+    model = pickle.load(file)
 
 # Custom CSS style
 st.markdown("""
